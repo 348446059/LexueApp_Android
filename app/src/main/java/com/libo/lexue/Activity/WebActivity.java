@@ -136,6 +136,7 @@ public class WebActivity extends FragmentActivity implements ActionSheet.ActionS
         }
 
         webView.getSettings().setJavaScriptEnabled(true);
+
         webView.getSettings().setDomStorageEnabled(true);
         webView.getSettings().setDatabaseEnabled(true);
         webView.getSettings().setGeolocationEnabled(true);
